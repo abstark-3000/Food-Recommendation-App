@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load dataset
-df = pd.read_csv("data/recipes.csv")
+df = pd.read_csv("/home/ArnavBhardwaj/Food-Recommendation-App/backend/data/recipes.csv")
 
 # Rename columns
 df = df.rename(columns={
